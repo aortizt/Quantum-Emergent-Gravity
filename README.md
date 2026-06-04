@@ -242,15 +242,16 @@ The stronger claim class supported by this repository is methodological:
 
 ---
 
-## Suggested citation / reference note
+## Suggested Citation
 
-A formal citation should be added after the repository is public and, if applicable, after a Zenodo archive is created.
+Ortiz-Tapia, A. (2026).
 
-Placeholder:
+Quantum-Emergent Gravity (QEG): Reproducibility scripts and evidence ledger for an emergent operator-geometry pipeline.
 
-```text
-Ortiz-Tapia, A. Quantum-Emergent Gravity (QEG): Reproducibility scripts and evidence ledger for an emergent operator-geometry pipeline. GitHub repository, 2026.
-```
+Zenodo.
+
+DOI:
+https://doi.org/10.5281/zenodo.20547303
 
 ---
 
