@@ -87,11 +87,58 @@ The generated inventory and evidence ledger indicate that the curated repository
 - canonical two-lobe rho-like structure and BARI/NUFIT/VALENCIA family-universality audits
 - null comparisons, entropy/arrow-direction diagnostics, low-k evidence channels, and reversibility guardrails
 - guarded GR/Friedmann-style appendix bookkeeping, treated as comparison material rather than a main-pipeline derivation
-- curated Stage-7E repository payload spanning detected script/document stages from Stage-4A through Stage-7E; see the detected stage-tag table below.
-
+- curated Stage-7E repository payload spanning detected script/document stages from Stage-4A through Stage-7E, supplemented by an early-pipeline capsule covering the pre-Stage-4 atlas, metric-seed, eigenshell, commutator/holonomy, Stage-3A, and Stage-4A bridge scripts.
 Details of the mathematical interpretation belong in the paper. This repository focuses on reproducibility, traceability, and method-result organization.
 
 ---
+## Early-pipeline capsule: pre-Stage-4 support
+## Early-pipeline capsule: pre-Stage-4 support
+
+The Stage-7E staging manifest begins its detected stage accounting at Stage-4A, but the manuscript-supporting computational spine begins earlier. The pre-Stage-4 scripts are retained to document how the particle-family source records were converted into a stable atlas, metric-shell diagnostics, eigensystem exports, commutator/holonomy summaries, and the first Stage-4A family-root shell-band objects.
+
+This capsule is included to prevent the repository from being read as if the QEG pipeline begins only at Stage-4C or later. The full raw outputs remain archival material; the README records only the compact reproducibility crosswalk needed to understand the early source-to-geometry transition.
+
+### Canonical early script spine
+
+| Layer                               | Canonical scripts                                                                                                                                                      | Role in the pipeline                                                                                                                                                                                                                                                                                                                                                                           |
+| ----------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Source / atlas layer                | `GIKL_neutrino_004.py`, `GIKL_neutrino_005.py`, `GIKL_neutrino_005b.py`, `GIKL_neutrino_006.py`, `GIKL_neutrino_007_fixed.py`                                          | Table-driven ingestion of the BARI / NUFIT / VALENCIA neutrino-fit families; NO/IO cloud construction; angle-safe treatment of (\delta_{\rm CP}); KL/GI sanity checks; replacement of pairwise normalization by a global pooled atlas; geometry diagnostics such as variograms, optimal transport, and Procrustes alignment; final atlas/preprocessing machinery used by later metric scripts. |
+| Metric seed / shell geometry        | `metric_002.py`                                                                                                                                                        | First PDG-derived metric-shell diagnostic: radial shells, transverse variance, Fisher anisotropy, curvature-like second differences, and transport perturbation.                                                                                                                                                                                                                               |
+| Eigensystem export                  | `metric_003_eigenvectors_fingerprint.py`, `metric_004_eigenvectors_fingerprint.py`, `metric_005_eigenvectors_fingerprint.py`, `metric_006_eigenvectors_fingerprint.py` | Preferred eigenshell export scripts. The fingerprint versions are retained because they preserve shell eigensystem artifacts and matrix provenance needed downstream.                                                                                                                                                                                                                          |
+| Stage-2 transport / holonomy bridge | `metric_007.py`, `stage2_metric007_plots.py`                                                                                                                           | Frame transport, commutators, holonomy, QC-style dilatation proxy (K=s_1/s_2), eigenvalue gaps, gap-weighted commutators, and near-degeneracy summaries.                                                                                                                                                                                                                                       |
+| Stage-3A canonical bridge           | `metric_stage_3A.py`                                                                                                                                                   | Hard-pins the bridge to the `metric_003` eigenshell stream, computes Stage-2 commutator/holonomy signals, writes per-FIT NPZs, and exports Stage-3A summaries.                                                                                                                                                                                                                                 |
+| Stage-4A family-root boundary       | `metric_stage_4A_shellbands.py`                                                                                                                                        | First formal family-root shell-band extraction. This is the boundary file where dm32-robust shell bands are extracted separately for BARI, NUFIT, and VALENCIA.                                                                                                                                                                                                                                |
+
+### Minimal early-output result spine
+
+The early outputs most relevant for manuscript support are:
+
+```text
+neutrino_kl_v005b_results.csv
+neutrino_kl_v005b_results_crossfit.csv
+neutrino_geom_v006_summary.csv
+neutrino_geom_v007_summary.csv
+metric_002_shell_diagnostics.csv
+Stage-2 / metric-007 commutator and holonomy summaries
+stage3A_summary_*.csv / stage3A_summary_*.json
+stage4A_shellbands_summary.csv
+stage4A_shellbands_BARI.json
+stage4A_shellbands_NUFIT.json
+stage4A_shellbands_VALENCIA.json
+```
+
+These files support the early manuscript narrative:
+
+1. table-driven atlas sanity and KL/GI-flow stabilization;
+2. first shell-geometry summary, including Fisher anisotropy and shell curvature diagnostics;
+3. eigenshell export and canonical narrowing into the Stage-3A bridge;
+4. commutator, holonomy, QC-proxy, and near-degeneracy diagnostics;
+5. Stage-4A dm32-persistent shell bands as the first true BARI / NUFIT / VALENCIA family-root geometry objects.
+
+### Reading rule
+
+The early-pipeline capsule is provenance support, not an additional physics claim. Its purpose is to document how the source-family data enter the intrinsic-geometry pipeline before the later Stage-4 through Stage-7 operator, two-lobe, universality, recursive, entropy, and physics-facing comparison stages.
+
 
 ## Repository layout
 
