@@ -298,7 +298,7 @@ Quantum-Emergent Gravity (QEG): Reproducibility scripts and evidence ledger for 
 Zenodo.
 
 DOI:
-https://doi.org/10.5281/zenodo.20547303
+https://doi.org/10.5281/zenodo.20800383
 
 ---
 
@@ -329,5 +329,176 @@ This README was generated from:
 Bundle: /home/dakini/Downloads/010-Quantum_Emergent_Gravity/metric_stage_7E_outputs/github_staging_reproducibility_bundle_v1
 Payload: /home/dakini/Downloads/010-Quantum_Emergent_Gravity/metric_stage_7E_outputs/github_staging_reproducibility_bundle_v1/repository_payload
 Evidence ledger: /home/dakini/Downloads/010-Quantum_Emergent_Gravity/__qeg_evidence__/EVIDENCE_LEDGER.md
+
+# QEG post-pipeline manuscript-support curation manifest
+
+**Version:** 1  
+**Boundary used:** the canonical scientific/result pipeline is frozen by
+`Stage-7E-v3_result_spine_audit.py` on 2026-06-03. The June 4 Stage-7E
+GitHub/Zenodo scripts are archive-engineering tools. The strict
+post-pipeline manuscript-support layer begins with
+`qeg_extract_manuscript_methods.py` on 2026-06-05.
+
+## Classification of the screenshots
+
+The unselected white region in the first screenshot is **before closure of
+the main pipeline**. It belongs to the canonical Stage-7B/7C evidence chain.
+
+The selected green region from `Stage-7C-v1f...` through
+`Stage-7E-v3_result_spine_audit.py` is also **not post-pipeline** in the strict
+sense. It is the final hardening, guarded-appendix, inventory, canonical
+run-sequence, and result-spine closure of the main computational pipeline.
+
+The June 4 Stage-7E staging/Zenodo scripts are a bridge between the frozen
+pipeline and publication packaging. They may be retained under
+`archive_tools/`, but should not be described as additional scientific
+stages.
+
+The strict post-pipeline scientific/manuscript-support set contains the
+following 9 scripts.
+
+## Strict post-pipeline scripts
+
+| Script | Date | Role |
+|---|---|---|
+| `qeg_extract_manuscript_methods.py` | 2026-06-05 | Manuscript method inventory and section-to-method map |
+| `section5_track_two_sector_numbers.py` | 2026-06-17 | Section 5 recovery/audit of canonical two-sector numerical invariants |
+| `section6_script_candidate_tracker_v1.py` | 2026-06-18 | Section 6 script/result candidate tracking for universality and robustness |
+| `Stage-7F_omega_m_provenance_forensic_reconstruction_v1.py` | 2026-06-19 | Forensic provenance reconstruction for the matter-like comparison invariant |
+| `Stage-7F_decoherence_surrogate_audit_v1.py` | 2026-06-19 | Decoherence/superselection structural-surrogate audit and null comparison |
+| `Stage-7F_v2_global_mu_origin_formula_trace.py` | 2026-06-19 | Global-mu formula, assignment, dependency, and operand lineage trace |
+| `Stage-7D_v5_manuscript_friedmann_trace.py` | 2026-06-19 | Manuscript-facing provenance verification for the guarded Friedmann appendix |
+| `QEG_external_temporal_holdout_NuFIT6_v1.py` | 2026-06-21 | First frozen-atlas external temporal holdout against later NuFIT data |
+| `Stage-7E_external_atlas_stability_v2_final.py` | 2026-06-21 | Final external-atlas stability audit with bootstrap, nulls, arrows, PCA attribution, and combined statistic |
+
+## Canonical-boundary scripts visible in the screenshots
+
+These stay with the canonical pipeline rather than the post-pipeline
+supplement:
+
+- `Stage-7B_time_surrogate_robustness_operator_irreversibility_v1.py` — Canonical scientific pipeline
+- `Stage-7C_admissible_witness_physical_semantics_bridge_v1.py` — Canonical scientific pipeline
+- `Stage-7C_witness_class_reconstruction_valid_denominator_v1a.py` — Canonical scientific pipeline
+- `Stage-7C_witness_recognition_overexclusion_repair_v1b.py` — Canonical scientific pipeline
+- `Stage-7C_witness_recognition_overexclusion_repair_v1c.py` — Canonical scientific pipeline
+- `Stage-7C_textual_evidence_triage_v1d.py` — Canonical scientific pipeline
+- `Stage-7C_candidate_source_balanced_evidence_adjudicator_v1d.py` — Canonical scientific pipeline
+- `Stage-7C_raw_source_pair_reconstruction_orientation_audit_v1e.py` — Canonical scientific pipeline
+- `Stage-7C-v1f_regenerate_forward_backward_lowk_pairs.py` — Canonical scientific pipeline
+- `Stage-7C-v1g_lowk_pair_semantic_validation_adjudicator.py` — Canonical scientific pipeline
+- `Stage-7C-v1h_actual_vector_lowk_spectral_arrow_validator.py` — Canonical scientific pipeline
+- `Stage-7C-v1i_explicit_pair_semantics_null_ablation.py` — Canonical scientific pipeline
+- `Stage-7C-v1j_manual_provenance_primary_vector_export.py` — Canonical scientific pipeline
+- `Stage-7C-v1k_manual_primary_vector_ingest_and_rerun.py` — Canonical scientific pipeline
+- `Stage-7C-v1l_primary_trajectory_regeneration_export_hooks.py` — Canonical scientific pipeline
+- `Stage-7C-v1m_one_script_to_rule_time_surrogate_evidence.py` — Canonical scientific pipeline
+- `Stage-7C-v1n_manuscript_evidence_hardening.py` — Canonical closure/hardening
+- `Stage-7C-v1o_unknown_survivor_friedmann_transition.py` — Canonical closure/transition
+- `Stage-7D_Friedmann_curvature_density_time_probe_v1.py` — Canonical guarded appendix branch
+- `Stage-7D_v2_friedmann_appendix_polishing.py` — Canonical guarded appendix branch
+- `Stage-7D_v3_dark_energy_closure_exploratory.py` — Canonical guarded appendix branch
+- `Stage-7D_v4_acceleration_proxy_audit.py` — Canonical guarded appendix branch
+- `Stage-7E-v1_project_inventory_ledger_crosswalk.py` — Canonical closure and inventory
+- `Stage-7E-v2_canonical_run_sequence_builder.py` — Canonical run-sequence freeze
+- `Stage-7E-v3_result_spine_audit.py` — Canonical result-spine freeze
+
+## Archive-engineering bridge
+
+Keep these only in an optional `archive_tools/` subdirectory:
+
+- `Stage-7E_github_staging_copy_curator_v1.py`
+- `Stage-7E_readme_and_github_instructions_builder_v1.py`
+- `Stage-7E_v4_Zenodo_output_collector.py`
+- `Stage-7E_v4a_script_output_tracer_and_zenodo_stager.py`
+- `Stage-7E_v4b_fail_loud_script_output_tracer_zenodo_stager.py`
+- `Stage-7E_v4c_wildcard_safe_zenodo_stager.py`
+- `Stage-7E_v4d_curated_zenodo_payload_builder.py`
+
+## Recommended bundle layout
+
+```text
+QEG_postpipeline_manuscript_support/
+├── README.md
+├── manifest/
+│   ├── postpipeline_script_manifest.csv
+│   ├── script_output_crosswalk.csv
+│   └── unresolved_or_ambiguous_paths.csv
+├── scripts/
+│   └── [the nine strict scripts]
+├── outputs/
+│   ├── qeg_extract_manuscript_methods/
+│   ├── section5_track_two_sector_numbers/
+│   ├── section6_script_candidate_tracker_v1/
+│   ├── Stage-7F_omega_m_provenance_forensic_reconstruction_v1/
+│   ├── Stage-7F_decoherence_surrogate_audit_v1/
+│   ├── Stage-7F_v2_global_mu_origin_formula_trace/
+│   ├── Stage-7D_v5_manuscript_friedmann_trace/
+│   ├── QEG_external_temporal_holdout_NuFIT6_v1/
+│   └── Stage-7E_external_atlas_stability_v2_final/
+└── archive_tools/                 # optional; not scientific evidence
+```
+
+## Deposit policy
+
+- **GitHub:** `README.md`, manifest files, and `scripts/`. Do not upload the
+  large generated output tree unless desired.
+- **Zenodo:** the complete directory, including scripts, outputs, manifests,
+  figures, tables, JSON summaries, run reports, and the README.
+- Preserve the original output directory structure whenever practical.
+- Deduplicate identical script copies by SHA-256; retain one canonical copy
+  and record all original paths in the crosswalk.
+- Do not mix Stage-7B/7C/7D/7E canonical-pipeline outputs into this supplement
+  merely because they were later cited in the manuscript.
+- A reused canonical-pipeline asset should be referenced by path and checksum,
+  not recopied, unless the supplemental bundle must be independently runnable.
+
+## Scientific status
+
+This supplement does not extend or redefine the canonical QEG pipeline. It
+documents the later manuscript-construction, provenance-audit, appendix-trace,
+and external-holdout computations used to convert the frozen result spine into
+the Physica D manuscript and its adversarial validation record.
+## Canonical pipeline and post-pipeline manuscript-support layer
+
+The repository distinguishes the **canonical QEG computational pipeline**
+from a later **post-pipeline manuscript-support and external-validation
+layer**.
+
+The canonical pipeline comprises the lineage-preserving mathematical and
+computational sequence culminating in the frozen run sequence and result
+spine recorded by `Stage-7E-v2_canonical_run_sequence_builder.py` and
+`Stage-7E-v3_result_spine_audit.py`. Those records identify the calculations
+that generate the principal scientific results.
+
+After that freeze, a smaller curated set of scripts was used to construct and
+audit the Physica D manuscript. These later scripts did not redefine the
+canonical pipeline. Their functions were to:
+
+1. extract a manuscript-facing method and result map;
+2. recover and verify section-level numerical invariants;
+3. reconstruct provenance for cosmology-proximity bookkeeping;
+4. audit guarded physical analogies and the Friedmann appendix;
+5. perform an external temporal holdout against later NuFIT data; and
+6. harden that holdout with bootstrap envelopes, corrected Monte Carlo
+   comparisons, ordering arrows, PCA-loading attribution, coordinate-semantic
+   and phase nulls, and a predeclared combined stability statistic.
+
+For GitHub, the supplemental directory contains the curated scripts and their
+manifest. The complete generated tables, figures, JSON summaries, and run
+reports are deposited with the corresponding Zenodo release.
+
+The distinction is therefore:
+
+```text
+canonical pipeline
+    = generation and freezing of the scientific result spine
+
+post-pipeline manuscript-support layer
+    = manuscript extraction, provenance verification, guarded appendix
+      tracing, and external temporal validation
+```
+
+This separation prevents later manuscript-facing audits from being mistaken
+for additional fitted stages of the emergence pipeline.
 Generator: Stage-7E_readme_and_github_instructions_builder_v1
 ```
